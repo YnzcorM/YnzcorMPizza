@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Strona pizzeri</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styl.css">
+        <link rel="stylesheet" href="stylmenu.css">
+    </head>
+    <body>
+      <script>
+        
+      </script>
+        <div class="menu">
+          <div class="koszyk"><img class="imgkosza" src="img/koszyk.png"></div>
+          <div class="koszykzawartosc"><p id="Koszyknapis">Koszyk</p>
+            <div class="sumakoszyka"></div>
+            <div class="tresc"></div></div>
+          <div class="pasek">
+            <ol>
+                <li><a href="grid.html">Menu</a>
+                  <ul>
+                    <li><a href="#">Pizze</a></li>
+                    <li><a href="#">Napoje</a></li>
+                  </ul>
+                </li>
+            
+                <li><a href="#">Opinie</a>
+                  <ul>
+                    <li><a href="#">Zostaw opinie</a></li>
+                    <li><a href="#">Sprawdz opinie</a></li>
+                  </ul>
+                </li>
+            
+                <li><a href="#">Konto</a>
+                  <ul>
+                    <li><a href="#">Moje zamowienia</a></li>
+                    <li id="zaloguj" onclick="okno()"><a href="#">Zaloguj</a></li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+        </div>
+    <div class="srodek">
+      <div class="bok"></div>
+        <div class="menu">
+          
+            <div class="pizza">
+              <div class="avatar">
+                <img class="imgpizza" src="img/kaprysna.jpg">
+              </div>
+              <div class="skladniki">
+                <p>Kapryśna</p>
+                Sos pomidorowy , Mozzarella, Szynka, Pieczarki
+              </div>
+              <div class="duza"><p>D</p>
+                32
+                <button onclick="kaprysnaaddd()" ><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="srednia"><p>S</p>
+                26
+                <button onclick="kaprysnaadds()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="mala"><p>M</p>
+                18
+                <button onclick="kaprysnaaddm()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="alergen">
+                <img class="znak" src="img/znak.jpg">
+                <div  class="opis0">
+                  <p class="aler">Alergeny</p>
+                  gluten,laktoza</div>
+              </div>
+            </div>
+            <div class="pizza">
+              <div class="avatar">
+                <img class="imgpizza" src="img/salami.jpg">
+              </div>
+              <div class="skladniki">
+                <p>Salami</p>
+                Sos pomidorowy , Mozzarella, Salami
+              </div>
+              <div class="duza"><p>D</p>
+                31
+                <button onclick="salamiaddd()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="srednia"><p>S</p>
+                25
+                <button onclick="salamiadds()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="mala"><p>M</p>
+                17
+                <button onclick="salamiaddm()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="alergen">
+                <img  class="znak" src="img/znak.jpg">
+                <div class="opis1">
+                  <p class="aler">Alergeny</p>
+                  gluten,laktoza</div>
+              </div>
+            </div>
+            <div class="pizza">
+              <div  class="avatar">
+                <img class="imgpizza" src="img/hawajska.jpg">
+              </div>
+              <div class="skladniki">
+                <p>Hawajska</p>
+                Sos pomidorowy , Mozzarella, Szynka, Ananas
+              </div>
+              <div class="duza"><p>D</p>
+                34
+                <button onclick="hawajskaaddd()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="srednia"><p>S</p>
+                27
+                <button onclick="hawajskaadds()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="mala"><p>M</p>
+                19
+                <button onclick="hawajskaaddm()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="alergen">
+                <img  class="znak" src="img/znak.jpg">
+                <div class="opis2">
+                  <p class="aler">Alergeny</p>
+                  gluten,laktoza</div>
+                  
+              </div>
+            </div>
+            <div class="pizza">
+              <div class="avatar">
+                <img class="imgpizza" src="img/mysliwska.jpg">
+              </div>
+              <div class="skladniki">
+                <p>Myśliwska</p>
+                Sos pomidorowy , Mozzarella, Szynka, Ananas
+              </div>
+              <div class="duza"><p>D</p>
+                34
+                <button onclick="mysliwskaaddd()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="srednia"><p>S</p>
+                28
+                <button onclick="mysliwskaadds()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="mala"><p>M</p>
+                18
+                <button onclick="mysliwskaaddm()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="alergen">
+                <img  class="znak" src="img/znak.jpg">
+                <div class="opis3">
+                  <p class="aler">Alergeny</p>
+                  gluten,laktoza</div>
+                  
+              </div>
+            </div>
+            <div class="pizza">
+              <div class="avatar">
+                <img class="imgpizza" src="img/jalapeno.jpg">
+              </div>
+              <div class="skladniki">
+                <p>Jalapeno</p>
+                Sos pomidorowy , Mozzarella, Szynka, Ananas
+              </div>
+              <div class="duza"><p>D</p>
+                32
+                <button onclick="jalapenoaddd()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="srednia"><p>S</p>
+                24
+                <button onclick="jalapenoadds()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="mala"><p>M</p>
+                16
+                <button onclick="jalapenoaddm()"><img class="guzik" src="img/guzik.jpg"></button>
+              </div>
+              <div class="alergen">
+                <img  class="znak" src="img/znak.jpg">
+                <div class="opis4">
+                  <p class="aler">Alergeny</p>
+                  gluten,laktoza</div>
+                
+              </div>
+            </div>
+        
+          </div>
+        <div id="logowanie">
+          <div class="oknolog">
+          <form name="formularz">
+            <p class="napislog">Login</p><input type="text" name="login">
+            <p class="napislog">Haslo</p><input type="password" name="haslo">
+            <input type="button" onclick="zaloguj()" value="Zaloguj">
+            </form>
+          </div>
+        </div>
+        <div class="bok"></div>
+    </div>
+        <footer>
+            Stronę wykonał: YzM na potrzebny nauki.
+        </footer>
+    <script src="skrypt.js"></script>
+    <script src="skryptmenu.js"></script>
+    </body>
+</html>

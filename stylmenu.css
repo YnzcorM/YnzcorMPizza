@@ -1,0 +1,88 @@
+.imgpizza{
+    box-shadow: 5px 5px grey;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+.znak{
+
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    
+}
+.duza,.srednia{
+    border-right-style: solid;
+    border-left-style: solid;
+    text-align: center;
+    background-color: orange;
+    width:  30px;
+}
+.pizza{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin: 15px;
+    border-radius: 30px;
+}
+.alergen{
+    width: 30px;
+    
+}
+.skladniki{
+    width: 150px;
+    border-right-style: solid;
+    background-color: orange;
+    border-radius: 20px 0 0 20px;
+}
+.mala{
+    border-left-style: solid;
+    border-radius: 0 0 20px 0;
+    text-align: center;
+    background-color: orange;
+    width:  30px;
+}
+p{
+    font-weight: bold;
+    font-size: 150%;
+}
+.opis0,.opis1,.opis2,.opis3,.opis4{
+    display: none;
+    background-color: darkgray;
+    height: 100px;
+    border-radius: 30px;
+    width: 100px;
+}
+.guzik{
+width: 15px;
+height: 15px;
+border-radius: 25px;
+}
+.koszyk{
+    width: 50px;
+    border-radius: 25px;
+    float: right;
+}
+.imgkosza{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.koszykzawartosc{
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    background-color: white;
+    width: 190px;
+    display: none;
+}
+#koszyknapis{
+    font-size: 100%;
+    text-align: justify;
+}
+.sumakoszyka{
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}

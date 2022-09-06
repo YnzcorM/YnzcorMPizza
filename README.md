@@ -1,0 +1,2 @@
+# staz
+# Pierwszy commit

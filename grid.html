@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Strona pizzeri</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+      <script>
+        
+      </script>
+        <div class="menu">
+          <div class="pasek">
+            <ol>
+                <li><a href="grid.html">Menu</a>
+                  <ul>
+                    <li><a href="pizza.html">Pizze</a></li>
+                    <li><a href="#">Napoje</a></li>
+                  </ul>
+                </li>
+            
+                <li><a href="#">Opinie</a>
+                  <ul>
+                    <li><a href="#">Zostaw opinie</a></li>
+                    <li><a href="#">Sprawdz opinie</a></li>
+                  </ul>
+                </li>
+            
+                <li><a href="#">Konto</a>
+                  <ul>
+                    <li><a href="#">Moje zamowienia</a></li>
+                    <li id="zaloguj" onclick="okno()"><a href="#">Zaloguj</a></li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+        </div>
+    <div class="srodek">
+        <div class="lewy">
+            <img id="glowny" src="img/lewa.jpg">
+        </div>
+        <div id="logowanie">
+          <div class="oknolog">
+          <form name="formularz">
+            <p class="napislog">Login</p><input type="text" name="login">
+            <p class="napislog">Haslo</p><input type="password" name="haslo">
+            <input type="button" onclick="zaloguj()" value="Zaloguj">
+            </form>
+          </div>
+        </div>
+        <div class="prawy">
+            <h1 id="guzik">Pizza</h1>
+            <input type="button" onclick="pizza()" value="Nowy napis">
+        </div>
+    </div>
+        <footer>
+            Stronę wykonał: YzM na potrzeby nauki.
+        </footer>
+    <script src="skrypt.js">
+
+    </script>
+    </body>
+</html>

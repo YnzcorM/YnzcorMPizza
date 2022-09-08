@@ -112,8 +112,7 @@ function jalapenoaddd(){
   koszyk.innerHTML+="JALAPENO DUŻA<br>";
   sumakoszyka();
 }
-
-
+const tablicaguzikow = [kaprysnaaddd,kaprysnaaddm,kaprysnaadds]; 
 //zawartosc koszyka
 
 function aktualizacja(){

@@ -7,7 +7,7 @@
 }
 .znak{
 
-    border-radius: 25px;
+    border-radius: 0px 25px 25px 0px;
     height: 25px;
     width: 25px;
     
@@ -57,7 +57,7 @@ p{
 .guzik{
 width: 15px;
 height: 15px;
-border-radius: 25px;
+border-radius:25px;
 }
 .koszyk{
     width: 50px;

@@ -8,6 +8,15 @@ const pizzy = {
         S:26,
         M:18,
         alergen: "gluten, laktoza",
+        mala : function(){
+            
+        },
+        srednia : function(){
+                  
+        }
+        duza : function(){
+                 
+        }
     },
     pizza2 : {
         nazwa : "Salami",
@@ -16,6 +25,15 @@ const pizzy = {
         S:25,
         M:17,
         alergen: "gluten, laktoza",
+        mala : function(){
+            
+        },
+        srednia : function(){
+                  
+        }
+        duza : function(){
+                 
+        }
     },
     pizza3 : {
         nazwa : "Hawajska",
@@ -24,6 +42,15 @@ const pizzy = {
         S:27,
         M:19,
         alergen: "gluten, laktoza",
+        mala : function(){
+            
+        },
+        srednia : function(){
+                  
+        }
+        duza : function(){
+                 
+        }
     },
     pizza4 : {
         nazwa : "Myśliwska",
@@ -32,6 +59,15 @@ const pizzy = {
         S:28,
         M:18,
         alergen: "gluten, laktoza",
+        mala : function(){
+            
+        },
+        srednia : function(){
+                  
+        }
+        duza : function(){
+                 
+        }
     },
     pizza5 : {
         nazwa : "Jalapeno",
@@ -40,6 +76,21 @@ const pizzy = {
         S:24,
         M:16,
         alergen: "gluten, laktoza",
+        mala : function(){
+            Jalapenom+=1;
+            koszyk.innerHTML+="JALAPENO MAŁA<br>";
+            sumakoszyka();
+        },
+        srednia : function(){
+            Jalapenos+=1;
+            koszyk.innerHTML+="JALAPENO ŚREDNIA<br>";
+            sumakoszyka();        
+        }
+        duza : function(){
+            Jalapenod+=1;
+            koszyk.innerHTML+="JALAPENO DUŻA<br>";
+            sumakoszyka();        
+        }
     }
 };
 

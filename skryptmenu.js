@@ -107,11 +107,6 @@ function mysliwskaaddd(){
   koszyk.innerHTML+="MYŚLIWSKA DUŻA<br>";
   sumakoszyka();
 }
-function jalapenoaddd(){
-  Jalapenod+=1;
-  koszyk.innerHTML+="JALAPENO DUŻA<br>";
-  sumakoszyka();
-}
 const tablicaguzikow = [kaprysnaaddd,kaprysnaaddm,kaprysnaadds]; 
 //zawartosc koszyka
 
